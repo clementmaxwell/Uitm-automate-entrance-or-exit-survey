@@ -9,7 +9,7 @@ please refer to other sources.
 ## Prerequisites:
 [Python 3 and above](https://www.python.org/downloads/) - Pick windows x86-64 executable installer
 
-Selenium web driver
+Selenium web driver for Python:
 ```
   in terminal, type:
   ~ pip install selenium
