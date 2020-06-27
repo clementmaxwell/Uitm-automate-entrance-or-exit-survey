@@ -7,6 +7,7 @@ please refer to other sources.
 
 ## Prerequisites:
 [Python 3 and above](https://www.python.org/downloads/) - Pick windows x86-64 executable installer
+
 Selenium web driver
 ```
   in terminal, type:
