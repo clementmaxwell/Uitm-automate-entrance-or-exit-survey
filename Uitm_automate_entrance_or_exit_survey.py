@@ -104,8 +104,8 @@ class User:
       logOut()
       closeBrowser()
 
-stdId = "2019225186"    # write id
-stdPwd = "241001"       # write pw
+stdId = ""    # write id
+stdPwd = ""       # write pw
 stdRadioBoxesKey = 5    # box score: range is 1 to 5.
 stdNoOfCourses = 6      # no. of courses
 stdWebdriverPath = "C:/Users/Clement/PyProjects/chromedriver.exe"
