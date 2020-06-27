@@ -3,7 +3,7 @@ A web crawler using Selenium to automate the process of filling in radio boxes i
 V.1.1.0
 
 ## Getting Started
-I'm mainly using Brave browser (compatible with ChromeDriver) my dev. environment. To set it up with other browser,
+I'm mainly using Brave browser (compatible with ChromeDriver) as my development environment. To set it up with other browser,
 please refer to other sources.
 
 ## Prerequisites:
