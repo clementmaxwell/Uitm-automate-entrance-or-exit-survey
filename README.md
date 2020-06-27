@@ -16,6 +16,7 @@ Selenium web driver
 ```
 Web Browser (Chrome/Brave/etc.)
 [ChromeDriver](https://chromedriver.chromium.org/downloads) - Pick chromedriver_win32.zip
+
 P.S.Please check your browser version before downloading ChromeDriver
 
 ## Configure app properties:
