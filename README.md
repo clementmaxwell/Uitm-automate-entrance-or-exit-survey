@@ -53,5 +53,16 @@ Your desired type of entrance:
 ```
 student1.launchWebdriver("exit") # 2 options: 'entrance' or 'exit'.
 ```
+
+## Deployment:
+On Windows:
+```
+cd 'to\installed\folder'
+python Uitm_automate_entrance_or_exit_survey.py
+```
+or sometimes:
+```
+python3 Uitm_automate_entrance_or_exit_survey.py
+```
 ## License
 This project is licensed under GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
