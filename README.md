@@ -24,15 +24,15 @@ P.S.Please check your browser version before downloading ChromeDriver. Browser v
 ## Configure app properties:
 starting from line 107:
 
-write id
+write your id
 ```
 stdId = "id"
 ```
-write pw
+write your pw
 ```
 stdPwd = "pw"
 ```
-setup box score: range is 1 to 5.
+setup your box score: range is 1 to 5.
 ```
 stdRadioBoxesKey = 5
 ```
