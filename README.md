@@ -1,5 +1,5 @@
 # Uitm-automate-entrance-or-exit-survey
-A web crawler using Selenium to automate the process of filling in radio boxes in a site.
+A web crawler using Selenium to automate the process of filling in radio boxes in UiTm student portal.
 
 ## Getting Started
 I'm mainly using Brave browser (compatible with ChromeDriver) my dev. environment. To set it up with other browser,
@@ -7,15 +7,13 @@ please refer to other sources.
 
 ## Prerequisites:
 [Python 3 and above](https://www.python.org/downloads/) - Pick windows x86-64 executable installer
+Selenium web driver
 ```
-Selenium web driver:
   in terminal, type:
   ~ pip install selenium
   after installing python
 ```
-```
 Web Browser (Chrome/Brave/etc.)
-```
 [ChromeDriver](https://chromedriver.chromium.org/downloads) - Pick chromedriver_win32.zip
 P.S.Please check your browser version before downloading ChromeDriver
 
