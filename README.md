@@ -2,7 +2,9 @@
 A web crawler using Selenium to automate the process of filling in radio boxes in UiTm student portal.
 V.1.1.0
 
-![Demo](https://github.com/clementmaxwell/Uitm-automate-entrance-or-exit-survey/blob/master/demo.gif)
+<p align="center">
+  <img src="https://github.com/clementmaxwell/Uitm-automate-entrance-or-exit-survey/blob/master/demo.gif"
+</p>
 
 ## Getting Started
 I'll be mainly using Brave browser (compatible with ChromeDriver) as my development environment. To set it up with other browser,
