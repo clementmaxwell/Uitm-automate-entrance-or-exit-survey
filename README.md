@@ -7,8 +7,7 @@ V.1.1.0
 </p>
 
 ## Getting Started
-I'll be mainly using Brave browser (compatible with ChromeDriver) as my development environment. To set it up with other browser,
-please refer to other sources.
+I'll be mainly using Brave browser (compatible with ChromeDriver) as my development environment. To set it up with other browser, change the browser path to your preferred browser location and change the webdriver path using its respective webdriver (i.e. Firefox = GeckoDriver).
 
 ## Prerequisites:
 [Python 3 and above](https://www.python.org/downloads/) - Pick windows x86-64 executable installer
