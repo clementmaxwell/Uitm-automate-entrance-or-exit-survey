@@ -1,6 +1,6 @@
 # Uitm-automate-entrance-or-exit-survey
 A web crawler using Selenium to automate the process of filling in radio boxes on UiTM student portal.
-V.1.1.0
+V.1.1.2
 
 <p align="center">
   <img src="https://github.com/clementmaxwell/Uitm-automate-entrance-or-exit-survey/blob/master/demo.gif"
