@@ -22,10 +22,10 @@ class User:
           student_box = browser.find_element_by_link_text("Student")
           student_box.click()
 
-          username_box = browser.find_element_by_id("UserUsername") 
+          username_box = browser.find_element_by_xpath("//*[@id='UserUsername']") 
           username_box.send_keys(self.userId)
 
-          password_box = browser.find_element_by_id("UserPassword")
+          password_box = browser.find_element_by_xpath("//*[@id='UserPassword']")
           password_box.send_keys(self.password)
 
           login = browser.find_element_by_xpath("//*[@id='UserLoginFormForm']"
