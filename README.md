@@ -22,7 +22,9 @@ Web Browser (Chrome/Brave/etc.)
 
 [ChromeDriver](https://chromedriver.chromium.org/downloads) - Pick chromedriver_win32.zip
 
+## IMPORTANT!!!
 P.S.Please check your browser version before downloading ChromeDriver. Browser version and ChromeDriver MUST match.
+Line 111, stdWebDriverPath, configure your webdriver path.
 
 ## Configure app properties:
 starting from line 107:
@@ -47,7 +49,7 @@ stdNoOfCourses = 6
 ## Configure path:
 Your web driver path:
 ```
-stdWebdriverPath = "C:/Users/Clement/PyProjects/chromedriver.exe"
+stdWebdriverPath = "C:/Users/YourUsername/PyProjects/chromedriver.exe"
 ```
 Your browser path:
 ```
