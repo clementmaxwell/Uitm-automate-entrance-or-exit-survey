@@ -26,7 +26,7 @@ Web Browser (Chrome/Brave/etc.)
 P.S.Please check your browser version before downloading ChromeDriver. Browser version and ChromeDriver MUST match.
 Line 111, stdWebDriverPath, configure your webdriver path.
 <p align="center">
-  <img src="https://github.com/clementmaxwell/Uitm-automate-entrance-or-exit-survey/blob/master/webdriver.png"
+  <img src="https://github.com/clementmaxwell/Uitm-automate-entrance-or-exit-survey/blob/master/webdriver.PNG"
 </p>
 
 ## Configure app properties:
