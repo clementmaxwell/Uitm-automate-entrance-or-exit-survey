@@ -104,12 +104,12 @@ class User:
       logOut()
       closeBrowser()
 
-stdId = ""    # write id
-stdPwd = ""       # write pw
+stdId = ""    # write your id
+stdPwd = ""       # write your pw
 stdRadioBoxesKey = 5    # box score: range is 1 to 5.
 stdNoOfCourses = 6      # no. of courses
-stdWebdriverPath = "C:/Users/Clement/PyProjects/chromedriver.exe"
-stdBrowserPath = "C:/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe"
+stdWebdriverPath = "yourWebDriverPath"
+stdBrowserPath = "yourBrowser.exe path"
 
 student1 = User(stdId, stdPwd, stdNoOfCourses, stdRadioBoxesKey, stdWebdriverPath, stdBrowserPath)
 student1.launchWebdriver("exit") # 2 options: 'entrance' or 'exit'.
