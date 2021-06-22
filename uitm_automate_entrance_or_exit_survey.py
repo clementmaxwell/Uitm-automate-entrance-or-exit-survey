@@ -15,7 +15,7 @@ class User:
       option = webdriver.ChromeOptions()
       option.binary_location = self.browserPath
       browser = webdriver.Chrome(executable_path=self.webDriverPath,
-      chrome_options=option)
+      options=option)
       browser.get('https://i-learn.uitm.edu.my/login')
 
       def logIn():
@@ -66,16 +66,17 @@ class User:
 
           greyEntrancePos = 1 # default is 1. must be equal to x (range('x', y)) in line 69.
           totalNumberOfRadioBoxes = 0
+          time.sleep(1)
           # can be tweaked when testing. default: range(1, x + 1)
           for course in range(1, self.noOfCourses + 1):
-              courseTitle = browser.find_element_by_xpath(f"/html/body/div[2]/div[1]/div[1]/ul/li[1]/ul/li[{course}]/a/span")
+              courseTitle = browser.find_element_by_xpath(f"/html/body/div[2]/div[1]/div[1]/ul/li[1]/ul/li[{course}]/a")
               courseTitle.click()
 
               # why? its a dynamic page.
               time.sleep(1) # so this is a must! else, won't work.
 
-              GreyEntranceLink = browser.find_element_by_xpath(f"/html/body/div[2]/div[1]/div[1]/ul/li[1]/ul/li[{greyEntrancePos}]/ul/li[5]/a")
-              GreyEntranceLink.click()
+              greyEntranceLink = browser.find_element_by_xpath(f"/html/body/div[2]/div[1]/div[1]/ul/li[1]/ul/li[{greyEntrancePos}]/ul/li[5]/a")
+              greyEntranceLink.click()
 
               if (typeOfSurvey == "entrance"):
                   greenBox = browser.find_element_by_xpath("/html/body/div[2]/div[2]"
@@ -96,7 +97,7 @@ class User:
 
               totalNumberOfRadioBoxes = 0 # reset variables.
               greyEntrancePos += 1
-              time.sleep(0.5)
+              time.sleep(1)
         
       logIn()
       clickMyCourse()
@@ -107,9 +108,9 @@ class User:
 stdId = ""    # write your id
 stdPwd = ""       # write your pw
 stdRadioBoxesKey = 5    # box score: range is 1 to 5.
-stdNoOfCourses = 6      # no. of courses
-stdWebdriverPath = "yourWebDriverPath"
-stdBrowserPath = "yourBrowser.exe path"
+stdNoOfCourses = 7      # no. of courses
+stdWebdriverPath = "" # e.g. D:/Code/Github backup/chromedriver_win32/chromedriver.exe
+stdBrowserPath = "" # e.g. C:/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe
 
 student1 = User(stdId, stdPwd, stdNoOfCourses, stdRadioBoxesKey, stdWebdriverPath, stdBrowserPath)
-student1.launchWebdriver("exit") # 2 options: 'entrance' or 'exit'.
+student1.launchWebdriver("") # 2 options: 'entrance' or 'exit'.
